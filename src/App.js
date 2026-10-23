@@ -55,7 +55,7 @@ export default function App() {
 
   return (
     <>
-      <NavBar movies={WatchedMovieList} />
+      <NavBar movies={movies} />
       <Main movies={movies} />
     </>
   );
